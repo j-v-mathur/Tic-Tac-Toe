@@ -1,0 +1,65 @@
+#mainbody{
+    text-align: center;
+    margin-top: 40px;
+}
+#startgamebutton{
+    background-color: lightgreen;
+}
+.mark{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 6cm;
+    height: 6cm;
+    margin: auto;
+    border: 0;
+  }
+  .grid-item {
+    border: 2px solid black;
+    color: black;
+    font-size: 1.3cm;
+    font-weight: bold;
+    display: flex;
+    line-height: 2cm;
+    width:2cm; /* or whatever width you want. */
+    max-width:2cm; /* or whatever width you want. */
+    height:2cm; /* or whatever width you want. */
+    max-height:2cm; /* or whatever width you want. */
+    display: inline-block;
+  }
+[id='1']{
+    border-left: 0;
+    border-top: 0;
+}
+[id='2']{
+    border-top: 0;
+}
+[id='3']{
+    border-right: 0;
+    border-top: 0;
+}
+[id='4']{
+    border-left: 0;
+}
+[id='6']{
+    border-right: 0;
+}
+[id='7']{
+    border-left: 0;
+    border-bottom: 0;
+}
+[id='8']{
+    border-bottom: 0;
+}
+[id='9']{
+    border-right: 0;
+    border-bottom: 0;
+}
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    opacity: 50%;
+}

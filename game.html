@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/x-icon" href="icons/game.png">
+    <link rel="stylesheet" href="style/game.css">
+  </head>
+  <body>
+   <div id="mainbody">
+  <h1 style="color: #003333;">Tic Tac Toe!</h1>
+  <div id="startgame">
+  <input type="text" placeholder="Players name" id="playername">
+  
+    <p>Choose Your Mark</p>
+    <input type="radio" id="X" name="mark" value="X">
+    <label for="X" class="mark">X (First Player)</label><br>
+    <input type="radio" id="O" name="mark" value="O">
+    <label for="O" class="mark">O (Second Player)</label><br> <br>
+
+
+  <button id="startgamebutton" onclick="startGame()">Start game</button>
+</div>
+<div id="instructiontoplayer">
+</div>
+
+   <div id="gamegrid"> 
+  
+    <br>
+    <div class="grid">
+        <div class="grid-item" id="1"></div>
+        <div class="grid-item" id="2"></div>
+        <div class="grid-item" id="3"></div>  
+        <div class="grid-item" id="4"></div>
+        <div class="grid-item" id="5"></div>
+        <div class="grid-item" id="6"></div>  
+        <div class="grid-item" id="7"></div>
+        <div class="grid-item" id="8"></div>
+        <div class="grid-item" id="9"></div>  
+    </div>
+
+    </div>
+    <footer class="footer">
+      <p>By JV Mathur</p>
+    </footer>
+  
+  </div>
+  <script src="scripts/game.js"></script>
+  </body>
+</html>
